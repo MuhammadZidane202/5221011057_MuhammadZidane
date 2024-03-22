@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Internal CSS-->
+    <!--Selector
+        # = id
+        . = Class
+        langsung = element
+    -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav {
+            background-color: rgba(9, 24, 110, 0.281);
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        #img-uty{
+            width: 100px;
+            height: 100px;
+        }
+        nav a{
+            color: rgb(0, 0, 0);
+            display: inline;
+            text-decoration: none;
+            text-align: left;
+        }
+        nav ul li a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline;
+            margin: 20px;
+            
+        }
+        nav ul li a:hover{
+            background-color: rgb(138, 5, 138);
+            color: black;
+        }
+        nav ul{
+            align-items: center;
+        }
+        #tulisan {
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        #img-foto {
+            width: 500px; 
+            margin-right: 20px;
+        }
+        #hobi{
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        #foto1{
+            width: 500px; 
+            
+        }
+        #foto2{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img id="img-uty" src="uty.png" alt="">
+        <a href="#">Muhammad Zidane</a>
+        <ul>
+            <li><a href="#">Tentang Saya</a></li>
+            <li><a href="#">Pencapaian Saya</a></li>
+            <li><a href="#">CV</a></li>
+        </ul>
+    </nav>
+    <div id="tulisan">
+        <div>
+            <h1>Perkenalkan</h1>
+            <p>Saya Muhammad Zidane dan saya seorang programmer pemula yang baru belajar HTML dan CSS</p>
+        </div>
+        <img id="img-foto" src="foto.jpg" alt="">
+    </div>
+    <div id="Hobi">
+        <div>
+            <h1>Hobi Saya</h1>
+            <p>Hobi Saya adalah mendaki gunung dan bermain game</p>
+            <p>Hampir semua gunung di jawa tengah sudah saya mendaki,</p>
+            <p>Dari gunung andong,gunung prau,gunung merbabu,gunung sindoro,dll</p>
+        </div>
+        <img id="foto1" src="foto1.jpeg" alt="">
+        <p>Ini keluarga saya di Gunung Merbabu</p>
+        <img id="foto2" src="foto2.jpeg" alt="">
+        <p>Ini saya bersama ibu dan adik saya di Gunung Sumbing</p>
+    </div>
+</body>
+</html>
